@@ -1,0 +1,102 @@
+body {
+font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+
+h2{
+color:maroon;					
+}
+
+/*self-defined CSS style*/
+.center {
+	margin: auto;
+	width: 60%
+}
+
+hr {
+	color: #f44336;
+	border-style: solid;
+	border-width: 3px;
+}
+
+td {
+	border-left: 3px solid #ddd;
+	border-top: 3px solid #ddd;
+	vertical-align: top;
+	padding: 10px;
+}
+
+td:hover {
+	background-color: #f5f5f5;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+img {
+	border-radius: 8px;
+	width: 40%;
+	height: 40%;
+}
+
+.error {
+	color: red;
+	font-weight: bold;	
+}
+
+/* retrieved from style_new.css */
+#catalogue {
+	width: 1100px;
+	float: left;
+	padding: 10px;
+}
+
+#cart {
+	position: fixed;
+    top: 10;
+    right: 0;
+    border-bottom: 3px solid #73AD21;
+}
+
+#inventory {
+	width: 700px;
+	padding: 10px;
+	border-bottom: 3px solid #73AD21;
+}
+
+/* #order {
+	position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+	padding: 10px;
+} */
+
+#package {
+    right: 200;
+}
+
+.button {
+	color: black;
+	background-color: white;
+	/*border: 2px solid;*/
+	border-radius: 3px;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	color: white;
+	background-color: #f44336;
+	border-radius: 3px;
+	transition-duration: 0.4s;
+}
+
+.hidden {
+	display: none;
+}
